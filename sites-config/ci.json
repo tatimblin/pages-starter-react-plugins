@@ -30,7 +30,7 @@
             "root": "src/plugins/hello-world"
           }
         ],
-        "event": "ON_PAGE_GENERATE",
+        "event": "ON_URL_CHANGE",
         "functionName": "helloWorld"
       }
     ]
