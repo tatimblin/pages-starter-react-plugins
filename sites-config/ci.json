@@ -9,21 +9,6 @@
     "features": "sites-config/features.json",
     "plugins": [
       {
-        "pluginName": "Generator",
-        "sourceFiles": [
-          {
-            "root": "dist/plugin",
-            "pattern": "*{.ts,.json}"
-          },
-          {
-            "root": "dist",
-            "pattern": "assets/{server,static,renderer}/**/*{.js,.css}"
-          }
-        ],
-        "event": "ON_PAGE_GENERATE",
-        "functionName": "Generate"
-      },
-      {
         "pluginName": "hello-world",
         "sourceFiles": [
           {
