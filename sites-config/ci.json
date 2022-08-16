@@ -22,6 +22,17 @@
         ],
         "event": "ON_PAGE_GENERATE",
         "functionName": "Generate"
+      },
+      {
+        "pluginName": "hello-world",
+        "sourceFiles": [
+          {
+            "root": "src/plugins/hello-world",
+            "pattern": "*{.ts,.json}"
+          }
+        ],
+        "event": "ON_PAGE_GENERATE",
+        "functionName": "helloWorld"
       }
     ]
   },
